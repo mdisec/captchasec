@@ -55,6 +55,7 @@ Results are saved into result_02-16-15-09:59:42.html
 
 HTML report 
 
+![alt tag](https://www.mehmetince.net/wp-content/uploads/2015/02/Screen-Shot-2015-02-16-at-10.00.29.png)
 
 ### Version
 0.0.1
