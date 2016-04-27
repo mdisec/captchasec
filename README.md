@@ -1,6 +1,6 @@
 # Captchasec
 
-Chaptchasec is a captcha difficulty tester! It uses de-captcher.com as an OCR server. 
+Chaptchasec is a captcha difficulty tester. It uses de-captcher.com as an OCR server. 
 
   - Gets images from local directory
   - Generate report as HTML, CSV, JSON
