@@ -6,7 +6,7 @@ from urllib import urlencode
 
 class DeCaptcher(object):
     """
-    Unofficial python client for de-captcher.com API
+    de-captcher.com API üçün qeyri-rəsmi python müştərisi.
     """
     def __init__(self, username, password):
         self.url = "http://poster.de-captcher.com/"
@@ -15,7 +15,7 @@ class DeCaptcher(object):
 
     def check_credentials(self):
         """
-        Checks out supplied credentials are valid or not?
+        Təchiz edilmiş etimadnamələrin yoxlanılması etibarlıdır ya yox?
         :return:
         """
         data = {"function": "balance",
@@ -37,7 +37,7 @@ class DeCaptcher(object):
 
     def solve_image(self, p):
         """
-        Send image as binary format and get text.
+        Şəkli ikili format kimi göndərin və mətn əldə edin.
         :param p:
         :return:
         """
@@ -53,8 +53,8 @@ class DeCaptcher(object):
 
     def __api(self, data):
         """
-        Simple HTTP Post function with build-in functions
-        in order to serve this tool without dependencies like `requests` etc.
+        Quraşdırılmış funksiyaları olan sadə HTTP Post funksiyası
+        bu alətə "istəklər" və s. kimi asılılıqlar olmadan xidmət etmək üçün.
         :param data:
         :return:
         """
